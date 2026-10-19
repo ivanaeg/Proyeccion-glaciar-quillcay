@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Si utiliza o adapta este código, cite este software y la tesis asociada. Verifique autoría y metadatos antes de publicar."
+type: software
+authors:
+  - family-names: "Escate Gastañaga"
+    given-names: "Ivana Karina"
+title: "Código de espacialización prospectiva del retroceso glaciar en la subcuenca Quillcay"
+abstract: "Selección altitudinal de píxeles de una máscara glaciar de 2024 para representar escenarios espaciales de áreas glaciares predeterminadas."
+version: "0.1.0"
+keywords:
+  - glaciares
+  - Quillcay
+  - Python
+  - espacialización
+  - SIG
