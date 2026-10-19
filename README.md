@@ -49,11 +49,11 @@ python proyeccion_glaciar.py \
 
 En Windows (PowerShell) puede escribirse el comando en una sola línea o usar el carácter de continuación propio de PowerShell.
 
-## Horizontes y superficies del código recibido
+## Horizonte y superficies proyectadas
 
-Las áreas objetivo **no se estiman en este programa**, sino que provienen del código facilitado. Los escenarios incluidos son 2024, 2029, 2034, 2039, 2044, 2049, 2054, 2059, 2064, 2069, 2074 y **2076**, con superficies respectivamente de 25,62; 23,16; 20,70; 18,24; 15,78; 13,32; 10,86; 8,40; 5,94; 3,48; 1,02 y 0,04 km².
+Las áreas objetivo **no se estiman en este programa**, sino que se proporcionan como datos de entrada. Los escenarios incluidos son 2024, 2029, 2034, 2039, 2044, 2049, 2054, 2059, 2064, 2069, 2074 y **2076**, con superficies respectivamente de 25,62; 23,16; 20,70; 18,24; 15,78; 13,32; 10,86; 8,40; 5,94; 3,48; 1,02 y 0,04 km².
 
-**Horizonte temporal confirmado por la investigadora:** el último año del escenario implementado es **2076**, con una superficie glaciar objetivo de **0,04 km²**. Por tanto, el periodo prospectivo documentado en este repositorio corresponde a **2024–2076**. Las menciones a 2077 que todavía aparezcan en el manuscrito, mapas o leyendas de la tesis deben corregirse o justificarse por separado; este código no genera una cobertura para 2077.
+**Horizonte temporal del estudio:** **2024–2076**. La última superficie glaciar proyectada corresponde al año **2076**, con un valor objetivo de **0,04 km²**.
 
 ## Limitaciones
 
@@ -76,11 +76,17 @@ Este repositorio contiene **el código de espacialización prospectiva** que apo
 
 ## Cómo citar
 
-**Si utiliza o adapta el código:** use el botón **«Cite this repository»** de GitHub, que lee el archivo `CITATION.cff`. El título visible de la cita identifica expresamente la tesis asociada. La referencia corresponde al **software**, no a una publicación independiente de la tesis. Si posteriormente se deposita una versión en Zenodo, sustitúyase o compleméntese con su DOI.
+**Estilo bibliográfico recomendado.** En las referencias APA 7 de este repositorio se emplea la forma de autor **Escate, I. K. (2026)**: primer apellido, iniciales de los dos nombres y año de publicación entre paréntesis. Si utiliza, adapta o reproduce el código de este repositorio en una investigación, se recomienda citarlo siguiendo las normas de la **American Psychological Association (APA), 7.ª edición** (edición vigente en 2026), o de acuerdo con el **sistema de citación exigido por la institución, revista científica, programa académico o proyecto** en el que se desarrolla la investigación. En todos los casos deben conservarse correctamente los datos de autoría, título del recurso, versión, año y enlace permanente o DOI cuando estén disponibles.
 
-**Si cita el contenido científico de la tesis:** utilice la referencia de la tesis una vez sustentada y publicada en el repositorio oficial de la PUCP. Como guía de metadatos, corresponderá a:
+**Para citar el código fuente:** seleccione **«Cite this repository»** en GitHub. Esta función utiliza los metadatos del archivo `CITATION.cff` y ofrece formatos **APA y BibTeX**. Verifique los metadatos de la versión consultada, especialmente la fecha de publicación, la autoría y la URL o DOI, antes de incorporar la referencia a su bibliografía. También puede adaptar esos mismos datos al estilo Vancouver, IEEE, Chicago u otro estilo exigido por su investigación.
 
-> Escate Gastañaga, I. K. (2026). *Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar* [Tesis de maestría, Pontificia Universidad Católica del Perú]. [Añadir URL institucional o DOI cuando exista].
+Como **modelo orientativo de referencia en APA 7**, una vez confirmado el año de publicación y añadido el enlace público, puede utilizarse:
+
+> Escate, I. K. (2026). *Código de espacialización prospectiva del retroceso glaciar asociado a la tesis «Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar»* (versión 0.1.0) [Software]. GitHub. [Agregar URL pública o DOI de la versión consultada].
+
+**Para citar la tesis de maestría:** la tesis constituye una obra académica distinta del código y debe citarse **por separado** cuando esté disponible en el repositorio institucional de la PUCP. Con fines de identificación, sus metadatos bibliográficos son:
+
+> Escate, I. K. (2026). *Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar* [Tesis de maestría, Pontificia Universidad Católica del Perú]. [Agregar URL institucional o DOI cuando exista].
 
 **Autoría y reconocimiento:** antes de fijar una versión archivada o licencia de reutilización, confirme la autoría efectiva del código y reconozca a quienes hayan participado en su desarrollo, según corresponda. La autoría de la tesis y la del software pueden no ser idénticas.
 

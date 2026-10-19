@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Si utiliza o adapta este código, cite el software. La tesis de maestría asociada se identifica con su título completo; cítela por separado cuando esté publicada."
+message: "Para utilizar o adaptar este código, se recomienda citarlo según APA (7.ª edición, vigente en 2026) o conforme al sistema bibliográfico requerido por la institución o revista. Cite la tesis asociada por separado cuando corresponda."
 type: software
 authors:
-  - family-names: "Escate Gastañaga"
+  - family-names: "Escate"
     given-names: "Ivana Karina"
     affiliation: "Pontificia Universidad Católica del Perú"
 title: "Código de espacialización prospectiva del retroceso glaciar asociado a la tesis «Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar»"
