@@ -1,15 +1,17 @@
 cff-version: 1.2.0
-message: "Si utiliza o adapta este código, cite este software y la tesis asociada. Verifique autoría y metadatos antes de publicar."
+message: "Si utiliza o adapta este código, cite el software. La tesis de maestría asociada se identifica con su título completo; cítela por separado cuando esté publicada."
 type: software
 authors:
   - family-names: "Escate Gastañaga"
     given-names: "Ivana Karina"
-title: "Código de espacialización prospectiva del retroceso glaciar en la subcuenca Quillcay"
-abstract: "Selección altitudinal de píxeles de una máscara glaciar de 2024 para representar escenarios espaciales de áreas glaciares predeterminadas."
+    affiliation: "Pontificia Universidad Católica del Perú"
+title: "Código de espacialización prospectiva del retroceso glaciar asociado a la tesis «Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar»"
+abstract: "Código Python para la espacialización de escenarios de retroceso glaciar en la subcuenca Quillcay. Forma parte de la investigación de tesis de Ivana Karina Escate Gastañaga para optar al grado académico de Maestra en Gestión de los Recursos Hídricos en la Pontificia Universidad Católica del Perú. Este script no realiza el ajuste de la regresión lineal ni evalúa directamente el peligro por drenaje ácido de roca."
 version: "0.1.0"
 keywords:
   - glaciares
   - Quillcay
   - Python
   - espacialización
-  - SIG
+  - drenaje ácido de roca
+  - tesis de maestría

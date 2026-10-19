@@ -53,7 +53,7 @@ En Windows (PowerShell) puede escribirse el comando en una sola línea o usar el
 
 Las áreas objetivo **no se estiman en este programa**, sino que provienen del código facilitado. Los escenarios incluidos son 2024, 2029, 2034, 2039, 2044, 2049, 2054, 2059, 2064, 2069, 2074 y **2076**, con superficies respectivamente de 25,62; 23,16; 20,70; 18,24; 15,78; 13,32; 10,86; 8,40; 5,94; 3,48; 1,02 y 0,04 km².
 
-**ATENCIÓN: diferencia documental por resolver.** La tesis menciona un horizonte **2024–2077**, mientras que el código compartido termina en **2076**. No se ha añadido artificialmente una cobertura para 2077. Esta diferencia debe reconciliarse con la versión del procesamiento que produjo las figuras, capas y resultados finales antes de utilizar el repositorio como evidencia de reproducción exacta.
+**Horizonte temporal confirmado por la investigadora:** el último año del escenario implementado es **2076**, con una superficie glaciar objetivo de **0,04 km²**. Por tanto, el periodo prospectivo documentado en este repositorio corresponde a **2024–2076**. Las menciones a 2077 que todavía aparezcan en el manuscrito, mapas o leyendas de la tesis deben corregirse o justificarse por separado; este código no genera una cobertura para 2077.
 
 ## Limitaciones
 
@@ -63,9 +63,26 @@ Las áreas objetivo **no se estiman en este programa**, sino que provienen del c
 - Para reproducir los mapas originales es necesario usar **los mismos insumos y versiones documentadas**, y comprobar las salidas frente a los shapefiles originales.
 - No se redistribuyen datos cartográficos de terceros: comprobar licencias, permisos y fuentes antes de publicarlos.
 
-## Reconocimiento y cita
+## Tesis de maestría asociada
 
-Consulte `CITATION.cff`. **Antes de publicar, confirme la autoría efectiva del algoritmo**, incluya coautores o colaboradores que corresponda y establezca una licencia únicamente si posee derechos para otorgarla. Cuando exista una versión estable, puede archivarse una liberación (*release*) en **Zenodo** para obtener un **DOI** permanente. Actualice entonces los metadatos de citación.
+**Título completo:** Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar
+
+**Autora:** Ivana Karina Escate Gastañaga.  
+**Grado académico al que se opta:** Maestra en Gestión de los Recursos Hídricos.  
+**Institución:** Pontificia Universidad Católica del Perú (PUCP), Perú.  
+**Año de elaboración:** 2026.
+
+Este repositorio contiene **el código de espacialización prospectiva** que apoya esa investigación; **no constituye el texto íntegro de la tesis** ni debe citarse como si fuera la tesis publicada. Cuando la tesis esté depositada oficialmente, incorpórese aquí el enlace institucional o DOI correspondiente.
+
+## Cómo citar
+
+**Si utiliza o adapta el código:** use el botón **«Cite this repository»** de GitHub, que lee el archivo `CITATION.cff`. El título visible de la cita identifica expresamente la tesis asociada. La referencia corresponde al **software**, no a una publicación independiente de la tesis. Si posteriormente se deposita una versión en Zenodo, sustitúyase o compleméntese con su DOI.
+
+**Si cita el contenido científico de la tesis:** utilice la referencia de la tesis una vez sustentada y publicada en el repositorio oficial de la PUCP. Como guía de metadatos, corresponderá a:
+
+> Escate Gastañaga, I. K. (2026). *Caracterización del peligro por Drenaje Ácido de Roca y sus potenciales implicancias en la gestión hídrica de la subcuenca Quillcay en un contexto de retroceso glaciar* [Tesis de maestría, Pontificia Universidad Católica del Perú]. [Añadir URL institucional o DOI cuando exista].
+
+**Autoría y reconocimiento:** antes de fijar una versión archivada o licencia de reutilización, confirme la autoría efectiva del código y reconozca a quienes hayan participado en su desarrollo, según corresponda. La autoría de la tesis y la del software pueden no ser idénticas.
 
 ## Alcance
 
